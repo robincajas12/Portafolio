@@ -1,0 +1,24 @@
+<section id="skills" data-aos="fade-right">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Technical skills</h2>
+            <div class="mb-3">
+                <ul class="list-group skill-list-group">
+                    <% for(let i = 0; i < dataImage.length; i++){ %> 
+                        <li class="list-group-item skill-li-item"><%=dataImage[`${i}`].skill %></li> 
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="">Important things</h2>
+            <div class="">
+                <ul class="list-group skill-list-group">
+                    <li class="list-group-item skill-li-item">English B1, you can read about my English experiencie <a href="#">here</a></li>   
+                    <li class="list-group-item skill-li-item">Technical skill certifications <a href="#">here</a></li> 
+                    <li class="list-group-item skill-li-item">My Portfolio ❤️ <a href="#">here</a></li>                                 
+                </ul>
+            </div>
+        </div>
+    </div>
+</section> 

@@ -1,0 +1,66 @@
+<section id="portafolio">
+    <div class="cotainer-fluid ">
+        <h2>Portafolio</h2>
+        <div class="container">
+            <% dataPortafolio.forEach(proyect => {%>
+                <div class="row container-proyect">
+                    <div class="">
+                        <h5><%=proyect.title %> </h5>
+                    </div>
+                    <div class="container-fluid col-md-5">
+                        <iframe class="portafolio-embed-video" src="https://www.youtube.com/embed/TMuSDWtbnBg"></iframe>
+                    </div>
+                    <div class="container-fluid col-md-7">
+                        <div class="">
+                            <div>App para ordenar los archivos de las carpetas esta las ordena por tipo de archivo por el momento</div>
+                            <div>Technologies</div>
+                            <div>HTML, CSS, JAVASCRIPT, Node.js, MongoDB, Electron</div>
+                            <div>
+                                <a class="btn btn-dark" href="https://github.com/robincajas12/SortFilesProyect"  target="_blank">Github</a>
+                                <a class="btn btn-outline-success" href="https://github.com/robincajas12/SortFilesProyect/releases/"  target="_blank">Descargar app</a>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            <% }) %> 
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="row container">
+    <div class="container col-md-6">
+        <div class="row container-proyect">
+            <div class="container-fluid">
+                <div>
+                    <h6>Order Files</h6>
+                    <a href="https://github.com/robincajas12/SortFilesProyect"  target="_blank">Github</a>
+                </div>
+                <iframe class="portafolio-embed-video" src="https://www.youtube.com/embed/TMuSDWtbnBg"></iframe>
+            </div>
+            <div class="container-fluid">
+                <p>
+                    App para ordenar los archivos de las carpetas esta las ordena por tipo de archivo por el momento
+                </p>
+                <p>Technologies</p>
+                <ul>
+                    <li>HTML, CSS, JAVASCRIPT</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>Electron</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div> 
+</div> -->
