@@ -1,14 +1,15 @@
-<section id="portafolio">
+<section id="portafolio" data-aos="fade-right">
     <div class="cotainer-fluid ">
         <h2>Portafolio</h2>
         <div class="container proyectos-container">
             <% dataPortafolio.forEach(proyect => {%>
-                <div class="row container-proyect">
+                <div class="row container-proyect" data-aos="fade-up-right">
                     <div class="">
                         <h5><%=proyect.title %> </h5>
                     </div>
                     <div class="container-fluid col-md-5">
                         <% if(proyect.type === 'yVideo'){%> <iframe class="portafolio-embed-video"  allowfullscreen="allowfullscreen" src="<%=proyect.src %>"></iframe><% } %> 
+                        <% if(proyect.type === 'sImg'){%> <img class="portafolio-embed-video" src="./img/proyects/<%=proyect.src %>"></img><% } %> 
                     </div>
                     <div class="container-fluid col-md-7">
                         <div class="">
@@ -31,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+                <hr>
             <% }) %> 
         </div>
     </div>
