@@ -65,7 +65,7 @@
             "title": "Doge",
             "description": "Proyecto de emprendimiento para adoptar y poner en adopción a perritos en la calle en este proyecto me encarge de realizar la parte del backend donde realize la conneción con la BBDB, API, Routing etc.",
             "src": "doge/doge.gif",
-            "technologies": [1,4,7,9, 10],
+            "technologies": [1,4,7,9],
             "type": "sImg",
             "links": [
                 {
