@@ -9,6 +9,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('css',express.static(path.join(__dirname,'..','node_modules','boostrap-icons')));
 app.use(router);
 app.use(api);
-app.listen(`$PORT` || 3000, ()=>{
+app.listen($PORT || 3000, ()=>{
     console.log('Server now is up and working!')
 });
