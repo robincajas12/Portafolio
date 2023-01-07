@@ -1,0 +1,38 @@
+{
+    "dataImage":{
+        "0": {
+            "skill":"React.js"
+        },
+        "1": {            
+            "skill":"Nodejs"
+        },  
+        "2":{
+            "skill":"Express"
+        },
+        "3":{
+            "skill":"mongoDB"
+        },
+
+        "4": {
+            "skill":"HTML5, CSS3, JavaScript"
+        },
+        "5":{
+            "skill":"jQuery"
+        },
+        "6":{
+            "skill":"git + git-hub"
+        },
+        "7":{
+            "skill":"Bootstrap"
+        },
+        "8":{
+            "skill":"APIs"
+        },
+        "9":{
+            "skill": "Sqlite"
+        },
+        "10": {
+            "skill": "Electron"
+        }
+    }
+}

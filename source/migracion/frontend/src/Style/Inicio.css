@@ -1,0 +1,20 @@
+/* inicio estilos */
+#inicio{
+
+    height: 100vw;
+    height: 91vh;
+   background: url('../img/desktop/code.jpg');
+   background-size: cover;
+   /* filter: blur(3px); */
+}
+
+.inicio__item{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-morado-opaco);
+}
+.inicio__text{
+    text-align: center;
+    color: var(--color-verde-claro);
+}
+

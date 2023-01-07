@@ -1,0 +1,12 @@
+/*skill stlyles */
+#skills{
+    background-color: var(--color-morado);
+    color: var(--color-verde-claro);
+    padding: 5% 15%;
+}
+.skill-li-item{
+    background-color: var(--color-morado-claro);
+    color: var(--color-verde-claro);
+    border: 1px solid var(--color-verde-claro);
+}
+

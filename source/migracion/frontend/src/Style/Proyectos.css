@@ -1,0 +1,23 @@
+#portafolio
+{
+    padding: 03% 15%;
+}
+.proyecto-titulo{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.portafolio-h3{
+    padding: 1rem;
+}
+.proyectos-item
+{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--color-morado-opaco);
+    color: var(--color-morado);
+    padding: 2%;
+    width: 20rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
