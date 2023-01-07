@@ -79,6 +79,25 @@
                     "btnClass": 2
                 }
             ]
+        },
+        {
+            "title": "Dogtinder website",
+            "description": "Tinder de mascotas",
+            "src": "doge/doge.gif",
+            "technologies": [4,7],
+            "type": "sImg",
+            "links": [
+                {
+                    "text": "github",
+                    "url": "https://github.com/robincajas12/SortFilesProyect",
+                    "btnClass": 0
+                },
+                {
+                    "text": "Visitar sitio en escritorio",
+                    "url": "https://doge.robincajas12.repl.co/home",
+                    "btnClass": 2
+                }
+            ]
         }
     ]
 }
